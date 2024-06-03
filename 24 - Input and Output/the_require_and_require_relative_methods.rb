@@ -10,7 +10,7 @@ puts "Welcome to the program"
 # An advantage of (require) is that whenever Ruby loaded a file using the require method,
 # and then another file needs to load/import that same file again, Ruby is not going
 # to load that file again, it would just say I've cached it before. This speeds up your code.
-# Caching: is the process of storing data in a cache which is a temporary storage area that 
+# Caching: is the process of storing data in a cache which is a temporary storage area that
 # facilitates faster access to data with the goal of improving application and system performance)
 
 # require method does not look inside of your current directory as load, instead it
