@@ -3,16 +3,17 @@
 # begin section or if we have something rescued as well.
 
 def sum(a, b)
-  # begin
+  begin
   a + b
-rescue TypeError => e
+  rescue TypeError => e
   a = a.to_i
   b = b.to_i
   retry
-rescue NoMethodError => e
-  "Can't solve this, sorry"
-ensure
-  puts "I'm always going to run"
+  rescue NoMethodError => e
+    "Can't solve this, sorry"
+  ensure
+    puts "I'm always going to run"
+  end
 end
 
 puts sum(1, 2)
