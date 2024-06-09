@@ -12,7 +12,7 @@ p Net.class
 
 
 
-# Note about URI :
+# Notes about URI :
 # (1) A URI(uniform resource identifiers) is a string of characters that
 # identify a name or a resource.
 # (2) A URL(uniform resource locators) is a subset of URI that specifies the
